@@ -1,0 +1,21 @@
+package com.exp;
+
+public class JavaExceptionDemo {
+	
+	public void method1(int a) {
+		System.out.println("entering method1");
+		int r=10/a;
+		
+        System.out.println("exiting method1");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        System.out.println("entering main");
+        JavaExceptionDemo demo=new JavaExceptionDemo();
+        demo.method1(0);
+        
+        System.out.println("exiting main");
+	}
+
+}
