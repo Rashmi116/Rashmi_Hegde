@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	
+	
+	<context:annotation-config></context:annotation-config>
+	<context:component-scan base-package="com.wiley.spring"></context:component-scan>
+		<!--
+	<bean id="e1" class="com.wileye.spring.Employee" scope="prototype">
+	
+	
+	 <property name="id" value="10"></property>
+		  <property name="fname" value="John"></property>
+		  <property name="lname" value="Doe"></property>
+		  <property name="addr" ref="a2"></property>
+	  
+		  
+		<constructor-arg index="0" value="10"></constructor-arg>
+		<constructor-arg  index="1" value="John"></constructor-arg>
+		<constructor-arg index="2" value="Miller"></constructor-arg>
+		<constructor-arg index="3" ref="a1"></constructor-arg>
+		  
+	</bean>
+	<bean init-method="myInit" destroy-method="myDestroy"
+	id="e2" class="com.wileyedge.Employee" scope="prototype">
+		  <property name="id" value="20"></property>
+		  <property name="fname" value=""></property>
+		  <property name="lname" value="Draper"></property>
+		  
+		  <property name="addr" ref="a2"></property>
+		  
+	</bean>
+	
+	<bean id="a1" class="com.wileyedge.Address" scope="prototype">
+	
+		<constructor-arg index="0" value="500074"></constructor-arg>
+		<constructor-arg  index="1" value="Madison Avenue"></constructor-arg>
+		<constructor-arg index="2" value="USA"></constructor-arg>
+		
+		<property name="zip" value="500074"></property>
+			<property name="city" value="Madison Avenue"></property>
+			<property name="country" value="England"></property> 
+			
+	</bean>
+	
+	 <bean id="a2" class="com.wileyedge.Address" scope="prototype">
+		<property name="zip" value="500070"></property>
+		<property name="city" value="Delhi"></property>
+		<property name="country" value="India"></property>
+	</bean> 
+	-->	
+	
+</beans>
