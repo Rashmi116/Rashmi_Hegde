@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.wileyedge.StudentRegRestfulApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.583 s <<< FAILURE! - in com.wileyedge.StudentRegRestfulApplicationTests
+contextLoads  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, mysqldbfullstack.cfeyoama8h99.ap-southeast-2.rds.amazonaws.com/port:3306/fullstackaws
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, mysqldbfullstack.cfeyoama8h99.ap-southeast-2.rds.amazonaws.com/port:3306/fullstackaws
+Caused by: java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, mysqldbfullstack.cfeyoama8h99.ap-southeast-2.rds.amazonaws.com/port:3306/fullstackaws
+

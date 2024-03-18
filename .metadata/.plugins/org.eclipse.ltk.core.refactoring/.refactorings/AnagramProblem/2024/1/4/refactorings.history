@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;Anagram.java&apos; to &apos;AnagramProblem/src/com.wiley.anagram&apos;&#x0D;&#x0A;- Original project: &apos;AnagramProblem&apos;&#x0D;&#x0A;- Destination element: &apos;AnagramProblem/src/com.wiley.anagram&apos;&#x0D;&#x0A;- Original element: &apos;Anagram.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.wiley.anagram" element1="/src&lt;{Anagram.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1706331025941" units="1" version="1.0"/>
-</session>

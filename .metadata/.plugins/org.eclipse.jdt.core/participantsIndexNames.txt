@@ -1,5 +1,0 @@
-INDEX VERSION 1.131
-D:\C376\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\199751800.index
-\MyWebApp\src\main\java
-D:\C376\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3260105839.index
-\StudentRegistration\src\main\java
